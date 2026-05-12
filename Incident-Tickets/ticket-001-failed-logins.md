@@ -1,48 +1,21 @@
 \# Ticket 001 - Multiple Failed Login Attempts
 
+## Alert Details
 
-
-\## Alert Title
-
-Multiple failed login attempts detected
-
-
-
-\## Severity
-
-Medium
-
-
-
-\## Alert Source
-
-Splunk
-
-
-
-\## Host
-
-DESKTOP-96A3R4F
-
-
-
-\## User Account
-
-Victoria
+**Alert Title:** Multiple failed login attempts detected  
+**Severity:** Medium  
+**Alert Source:** Splunk  
+**Host:** DESKTOP-96A3R4F  
+**User Account:** Victoria  
+**Logon Type:** 2 - Interactive logon  
 
 
 
 \## Event IDs
 
-\- 4625 - Failed logon
+\ 4625 - Failed logon
 
-\- 4624 - Successful logon
-
-
-
-\## Logon Type
-
-2 - Interactive logon
+\ 4624 - Successful logon
 
 
 
