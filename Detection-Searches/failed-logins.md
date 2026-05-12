@@ -1,14 +1,14 @@
-\# Detection: Failed Logins
+# Detection: Failed Logins
 
 
 
-\## Purpose
+## Purpose
 
 Detect failed Windows login attempts.
 
 
 
-\## Splunk Search
+## Splunk Search
 
 ```spl
 
