@@ -1,6 +1,8 @@
-\# Ticket 001 - Multiple Failed Login Attempts
 
 ## Alert Details
+# Ticket 001 - Multiple Failed Login Attempts
+
+
 
 **Alert Title:** Multiple failed login attempts detected  
 **Severity:** Medium  
@@ -13,13 +15,13 @@
 
 \## Event IDs
 
-\ 4625 - Failed logon
+ 4625 - Failed logon
 
-\ 4624 - Successful logon
+ 4624 - Successful logon
 
 
 
-\ Summary
+\## Summary
 
 Multiple failed login attempts were detected for the Victoria's account on host DESKTOP-96A3R4F. The failed attempts were followed by a successful interactive login, so the activity was reviewed to determine whether it was normal user error or suspicious authentication activity.
 
@@ -27,13 +29,13 @@ Multiple failed login attempts were detected for the Victoria's account on host 
 
 \## Evidence
 
-\- Failed login search: `index=windows EventCode=4625`
+ Failed login search: `index=windows EventCode=4625`
 
-\- Successful login review: `index=windows EventCode=4624`
+ Successful login review: `index=windows EventCode=4624`
 
-\- Screenshot: `ticket-001-failed-logins.png`
+ Screenshot: `ticket-001-failed-logins.png`
 
-\- Screenshot: `ticket-001-successful-login-review.png`
+ Screenshot: `ticket-001-successful-login-review.png`
 
 
 
