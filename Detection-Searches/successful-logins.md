@@ -1,14 +1,11 @@
-\# Detection: Successful Logins
+# Detection: Successful Logins
 
-
-
-\## Purpose
+## Purpose
 
 Review successful Windows logins.
 
 
-
-\## Splunk Search
+## Splunk Search
 
 ```spl
 
