@@ -1,34 +1,17 @@
 # Ticket 004 - User Added to Local Administrators Group
 
-## Alert Title
-User added to local Administrators group
+## Alert Details
 
-## Severity
-High
-
-## Alert Source
-Splunk / Windows Security Logs
-
-## Host
-DESKTOP-96A3R4F
-
-## User Added
-John Neves
-
-## Group Modified
-Administrators
-
-## Modified By
-Victoria
-
-## Event ID
-- 4732 - A member was added to a security-enabled local group
-
-## Member SID
-S-1-5-21-999226604-995734374-1361329636-1002
-
-## SID Resolved To
-DESKTOP-96A3R4F\John Neves
+**Alert Title:** User added to local Administrators group  
+**Severity:** High  
+**Alert Source:** Splunk / Windows Security Logs  
+**Host:** DESKTOP-96A3R4F  
+**User Added:** John Neves  
+**Group Modified:** Administrators  
+**Modified By:** Victoria  
+**Event ID:** 4732 - A member was added to a security-enabled local group  
+**Member SID:** S-1-5-21-999226604-995734374-1361329636-1002  
+**SID Resolved To:** DESKTOP-96A3R4F\John Neves 
 
 ## Summary
 A user account named John Neves was added to the local Administrators group on host DESKTOP-96A3R4F by the Victoria account. Local administrator group changes are high-risk events because they may indicate privilege escalation if the action was not approved.
