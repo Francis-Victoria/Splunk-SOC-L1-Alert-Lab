@@ -19,9 +19,9 @@
 
 
 
-\## Summary
+\ Summary
 
-Multiple failed login attempts were detected for the Victoria account on host DESKTOP-96A3R4F. The failed attempts were followed by a successful interactive login, so the activity was reviewed to determine whether it was normal user error or suspicious authentication activity.
+Multiple failed login attempts were detected for the Victoria's account on host DESKTOP-96A3R4F. The failed attempts were followed by a successful interactive login, so the activity was reviewed to determine whether it was normal user error or suspicious authentication activity.
 
 
 
