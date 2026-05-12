@@ -151,8 +151,6 @@ Investigated a user being added to the local Administrators group using Windows 
 
 | Event ID | Description | Use Case |
 
-|---|---|---|
-
 | 4624 | Successful logon | Login validation |
 
 | 4625 | Failed logon | Failed login investigation |
