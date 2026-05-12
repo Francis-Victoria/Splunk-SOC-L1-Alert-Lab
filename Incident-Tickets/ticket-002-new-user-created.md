@@ -19,13 +19,11 @@
 A new local user account named John Neves was created on host DESKTOP-96A3R4F by the Victoria account. New account creation can be legitimate administrative activity, but in a SOC environment, unexpected account creation should be reviewed because it may indicate unauthorized access or persistence activity.
 
 
-
 ## Evidence
 
-\- Splunk search: `index=windows EventCode=4720`
+ Splunk search: `index=windows EventCode=4720`
 
-\- Screenshot: `ticket-002-new-user-created.png`
-
+ Screenshot: `ticket-002-new-user-created.png`
 
 
 ## Investigation Steps
