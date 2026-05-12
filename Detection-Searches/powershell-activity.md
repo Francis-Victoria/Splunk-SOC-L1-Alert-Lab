@@ -1,14 +1,11 @@
-\# Detection: PowerShell Activity
+# Detection: PowerShell Activity
 
-
-
-\## Purpose
+## Purpose
 
 Detect PowerShell execution on endpoints.
 
 
-
-\## Splunk Search
+## Splunk Search
 
 ```spl
 
