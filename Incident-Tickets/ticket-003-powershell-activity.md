@@ -2,21 +2,17 @@
 
 
 
-\## Alert Title
-
-PowerShell activity detected on endpoint
+## Alert Title - PowerShell activity detected on endpoint
 
 
 
-\## Severity
+## Severity
 
 Medium
 
 
 
-\## Alert Source
-
-Splunk / Sysmon
+## Alert Source - Splunk / Sysmon
 
 
 
