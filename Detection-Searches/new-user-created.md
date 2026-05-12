@@ -1,14 +1,10 @@
-\# Detection: New User Account Created
+# Detection: New User Account Created
 
-
-
-\## Purpose
+## Purpose
 
 Detect new local or domain account creation.
 
-
-
-\## Splunk Search
+## Splunk Search
 
 ```spl
 
