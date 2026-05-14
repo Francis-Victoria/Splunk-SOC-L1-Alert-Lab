@@ -21,8 +21,7 @@
 
 ## Summary
 
-Multiple failed login attempts were detected for the Victoria's account on host DESKTOP-96A3R4F. The failed attempts were followed by a successful interactive login, so the activity was reviewed to determine whether it was normal user error or suspicious authentication activity.
-
+Multiple failed login attempts were detected for the Victoria account on host DESKTOP-96A3R4F. I reviewed the failed logon events in Splunk, checked the failure reason and compared them against successful logon activity to determine whether the activity looked like normal user error or a potential authentication issue. 
 
 ## Evidence
 
@@ -54,8 +53,11 @@ Multiple failed login attempts were detected for the Victoria's account on host 
 
 ## Analysis
 
-The activity appears to be failed interactive login attempts against the local workstation. Since the failed attempts were limited and followed by a successful login, this could be normal user error. However, in a real SOC environment, repeated failed logins followed by a successful login should be reviewed carefully because it may indicate password guessing or unauthorized access.
+## Analysis
 
+The activity appears to be a series of failed interactive login attempts on the local workstation. Since the attempts were limited and followed by a successful login, the event may have been caused by normal user error, such as entering the wrong password.
+
+However, in a real SOC environment, failed logins followed by a successful login should still be reviewed carefully. This pattern could indicate password guessing or unauthorized access, especially if it involves a privileged account, occurs outside normal business hours, or appears across multiple systems.
 
 
 ## Assessment
@@ -77,13 +79,13 @@ Continue monitoring the account for additional failed logins. If more failed att
 
 Escalate to Tier 2 if:
 
-\- Failed login attempts continue
+ Failed login attempts continue
 
-\- Multiple accounts are targeted
+ Multiple accounts are targeted
 
-\- The successful login came from an unusual source
+ The successful login came from an unusual source
 
-\- The account is privileged
+ The account is privileged
 
-\- Login activity occurs outside normal business hours
+ Login activity occurs outside normal business hours
 
