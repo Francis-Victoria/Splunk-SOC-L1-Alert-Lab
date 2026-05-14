@@ -15,8 +15,7 @@
 
 
 ## Summary
-
-A new local user account named John Neves was created on host DESKTOP-96A3R4F by the Victoria account. New account creation can be legitimate administrative activity, but in a SOC environment, unexpected account creation should be reviewed because it may indicate unauthorized access or persistence activity.
+A new local user account, John Neves, was created on host DESKTOP-96A3R4F by the Victoria account. New account creation can be legitimate administrative activity, but in a SOC environment, unexpected account creation should be reviewed because it may indicate unauthorized access or persistence activity.
 
 
 ## Evidence
@@ -44,7 +43,7 @@ A new local user account named John Neves was created on host DESKTOP-96A3R4F by
 
 ## Analysis
 
-The account creation was expected because it was performed intentionally as part of the SOC lab. In a real SOC environment, new local account creation should be validated against an approved service ticket or change request. If the account was not approved, this would be treated as suspicious and escalated.
+The account creation was expected because it was performed intentionally as part of the SOC lab. In a real SOC environment, new local account creation should be validated against an approved service ticket or change request. If the account was not approved, this would be treated as suspicious and escalated for further investigation.
 
 
 ## Assessment
@@ -66,13 +65,13 @@ Monitor for additional account activity, especially if the account is added to p
 
 Escalate to Tier 2 if:
 
-\- The account was not approved
+ The account was not approved
 
-\- The account is added to the local Administrators group
+ The account is added to the local Administrators group
 
-\- The account is created outside normal business hours
+ The account is created outside normal business hours
 
-\- The account name appears suspicious
+ The account name appears suspicious
 
-\- The account is used shortly after creation for login activity
+ The account is used shortly after creation for login activity
 
