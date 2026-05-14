@@ -13,7 +13,7 @@
 
 ## Summary
 
-PowerShell activity was detected on host DESKTOP-96A3R4F through Sysmon process creation logs. PowerShell is a legitimate administrative tool, but it is also commonly reviewed in SOC environments because attackers may use it for discovery, script execution, downloads, and persistence.
+PowerShell activity was detected on host DESKTOP-96A3R4F through Sysmon process creation logs. PowerShell is a legitimate administrative tool, but it is also commonly reviewed in SOC environments because attackers may use it for discovery, script execution, downloads and persistence.
 
 ## Evidence
 
@@ -54,8 +54,7 @@ Authorized lab activity.
 
 ## Action Taken
 
-Documented the PowerShell process creation event, reviewed the command line and parent process, and confirmed the activity was expected.
-
+Documented the PowerShell process creation event, reviewed the command line and parent process and confirmed the activity matched the expected lab activity.
 
 ## Recommendation
 
@@ -66,13 +65,13 @@ Continue monitoring PowerShell usage and review command-line details for suspici
 
 Escalate to Tier 2 if:
 
-\- PowerShell uses encoded or obfuscated commands
+ PowerShell uses encoded or obfuscated commands
 
-\- PowerShell downloads files from external URLs
+ PowerShell downloads files from external URLs
 
-\- PowerShell launches from Office applications or browsers
+ PowerShell launches from Office applications or browsers
 
-\- PowerShell executes under an unexpected user account
+ PowerShell executes under an unexpected user account
 
 \- PowerShell activity occurs outside normal business hours
 
