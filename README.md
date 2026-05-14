@@ -6,9 +6,7 @@
 This project demonstrates a Jr SOC Analyst L1 workflow using Splunk, Windows Event Logs, Sysmon and PowerShell. The lab focuses on collecting endpoint logs, creating detection searches, investigating security alerts, documenting findings and making escalation decisions.
 
 
-
-The purpose of this lab is to simulate common SOC L1 responsibilities, including SIEM monitoring, log analysis, alert triage, evidence collection and incident documentation.
-
+The goal was to simulate real SOC L1 tasks such as monitoring SIEM alerts, reviewing logs, triaging suspicious activity, collecting evidence, and writing clear incident documentation.
 
 
 ## Lab Environment
